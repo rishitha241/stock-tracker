@@ -1,7 +1,7 @@
 
 async function getStockData() {
     const symbol = document.getElementById("stockInput").value.toUpperCase();
-    const apiKey = "YOUR_API_KEY"; // Replace with your actual API key
+    const apiKey = "https://twelvedata.com/"; 
     const url = `https://api.twelvedata.com/quote?symbol=${symbol}&apikey=${apiKey}`;
 
     const response = await fetch(url);
