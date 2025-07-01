@@ -1,0 +1,35 @@
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    margin-top: 50px;
+}
+input {
+    padding: 10px;
+    width: 250px;
+}
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#stockInfo {
+    margin-top: 30px;
+}
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+footer a {
+    color: #00aaff;
+    text-decoration: none;
+}
